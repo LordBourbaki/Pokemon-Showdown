@@ -412,14 +412,14 @@ exports.Formats = [
 		section: "Other Metagames",
 
 		ruleset: ['Pokemon', 'OHKO Clause', 'HP Percentage Mod'],
-		banlist: ['Wonder Guard', 'Shadow Tag', 'Arena Trap', 'Pure Power', 'Huge Power', 'Parental Bond']
+		banlist: ['Wonder Guard', 'Shadow Tag', 'Arena Trap', 'Pure Power', 'Huge Power', 'Parental Bond', 'Latias-Mega', 'Latios-Mega']
 	},
 	{
 		name: "Hackmons",
 		section: "Other Metagames",
 
 		ruleset: ['Pokemon', 'HP Percentage Mod'],
-		banlist: []
+		banlist: ['Latias-Mega', 'Latios-Mega'] //unreleased 
 	},
 	{
 		name: "Sky Battles",
@@ -804,3 +804,4 @@ exports.Formats = [
 	}
 
 ];
+'
